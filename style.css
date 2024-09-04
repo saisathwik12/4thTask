@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(239, 239, 239);
+    margin: -1px 0px;
+}
+
+
+.head{
+
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+.headnav{
+    display: flex;
+    justify-content: space-evenly;
+    flex: 3;
+    list-style-type: none;
+    align-items: center;
+    
+}
+.headnav input{
+    width: 600px;
+    height: 30px;
+    
+}
+.headnav select{
+    padding: 5px;
+    border: 0;
+}
+.headnav a{
+    text-decoration: none;
+}
+.category{
+
+    background-color: white;
+    margin:8px 15px;
+    padding:10px 10px 100vh ;
+
+}
+.categorynav{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    
+
+}
+.categorynav a{
+    text-decoration: none;
+    color: black;
+}
